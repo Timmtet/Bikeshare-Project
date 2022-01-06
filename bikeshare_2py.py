@@ -2,6 +2,7 @@ import time
 import pandas as pd
 import numpy as np
 
+# This is a bikeshare project
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
@@ -73,6 +74,8 @@ def load_data(city, month, day):
     if day != 'all':
         df = df[df['day_of_week'] == day.title()]
     return df
+
+# You're still working on bikeshare project
 
 def time_stats(df):
     """Displays statistics on the most frequent times of travel."""
@@ -221,3 +224,4 @@ def main():
 
 if __name__ == "__main__":
 	main()
+# You just finished working on the bikeshare project
