@@ -1,5 +1,5 @@
-impor time
-import pandas as pd
+import time
+impor pandas as pd
 import numpy as np
 
 # This is a bikeshare project
