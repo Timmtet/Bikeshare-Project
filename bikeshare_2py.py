@@ -1,6 +1,6 @@
 import time
 import pandas as pd
-import numpy as n
+import numpy as np
 
 # This is a bikeshare project
 CITY_DATA = { 'chicago': 'chicago.csv',
